@@ -1,0 +1,62 @@
+p,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 15px auto;
+    font-size: 24px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+} 
+img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.tamagothci__block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+.tamagotchi__item{
+    text-align: center;
+}
+.name, .text{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 5px;
+}
+.restart{
+    display: block;
+    display: none;
+    margin: 0px auto;
+    width: 100px;
+    text-align: center;
+} 
+.timer{
+    text-align: center;
+}
+.happiness, .fullness, .cleanness{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.bar {
+    padding-left: 2px;
+    width: 200px;
+    background: #257cee;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 0 auto;
+}
