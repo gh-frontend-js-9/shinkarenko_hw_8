@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tamagotchi</title>
+</head>
+<body>
+  <div class="content">
+    <div class="tamagotchi">
+        <div id="name" class="name"></div>
+        <img src="img/fluffy_kitty-1.jpg" id="img" class="img">
+        <div id="text" class="text"></div>
+        <div class="tamagothci__block">
+
+          <div class="tamagotchi__item">
+            <p>Happiness</p>
+            <div id="happiness" class="bar"></div>
+            <button id="btnPet" class="btnPet">Run</button>
+          </div>
+
+          <div class="tamagotchi__item">
+            <p>Food</p>
+            <div id="fullness" class="bar"></div>
+            <button id="btnFeed" class="btnFeed">Eat</button>
+          </div>
+
+          <div class="tamagotchi__item">
+            <p>Clean</p>
+            <div id="cleanness" class="bar"></div>
+            <button id="btnClean" class="btnClean">Wash</button>
+          </div>
+        </div>
+    </div>
+  </div>
+      <p class="timer">The life time of Tamagotchi: <span id="seconds">00</span>:<span id="tens">00</span></p>
+      <button id="btnRestart" class="restart" onclick="location.btnRestart()">Restart</button> 
+      <script src="tamagotchi.js"></script>
+</body>
+</html>
